@@ -1,0 +1,184 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='img/icon.png')}}" />
+	<title>Inicio &mdash; Proyecto de metodos numericos</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+	<!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"> -->
+	<!-- Animate.css -->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/animate.css')}}">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/icomoon.css')}}">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.css')}}">
+	<!-- Theme style  -->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css')}}">
+	<!-- Modernizr JS -->
+	<script type="text/javascript" src="{{ url_for('static', filename='js/modernizr-2.6.2.min.js')}}"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+	</head>
+	<body>
+	<div class="fh5co-loader"></div>
+	<div id="page">
+	<nav class="fh5co-nav" role="navigation">
+		<div class="container">
+			<div class="fh5co-top-logo">
+				<div id="fh5co-logo"><a href="/">Inicio</a></div>
+			</div>
+			<div class="fh5co-top-menu menu-1 text-right">
+				<ul>
+					<li><a href="static/docs/Documentacion-Grupo-Python.pdf">Documentacion</a></li>
+					<li><a href="#metodos">Metodos</a></li>
+					<li><a href="#nosotros">Nosotros</a></li>
+				</ul>
+			</div>
+			<div class="fh5co-top-social menu-1 text-right">
+				<ul class="fh5co-social">
+					<li><a href="https://www.facebook.com/"><i class="icon-facebook"></a></i></li>
+					<li><a href="https://twitter.com/"><i class="icon-twitter"></i></a></li>
+					<li><a href="https://github.com/RayDiazVega/FlaskAPP"><i class="icon-github"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div id="fh5co-work">
+		<div class="container">
+			<div class="row top-line animate-box">
+				<div class="col-md-7 col-md-push-5 text-left intro">
+				    <h1> Proyecto de Metodos Numericos</h1>
+					<h2><span class="fh5co-highlight">Creado  <i class="icon-code"></i> por <a href="/">GrupoPython</a> </span></h2>
+					<!-- <h2>Shift is a Collection of a Beautiful &amp; Premium Themes.</h2> -->
+				</div>
+			</div>
+			<section id="metodos">
+				<div class="row">
+					<div class="col-md-4 text-center animate-box">
+						<a class="work" href="Newton.html">
+							<div class="work-grid" style="background-image:url(static/img/project-1.jpg);">
+								<div class="inner">
+									<div class="desc">
+									<h3>Newton Raphson</h3>
+									<img src="{{url_for('static', filename='img/nr.png')}}"/>
+								</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 text-center animate-box">
+						<a class="work" href="Puntofijo.html">
+							<div class="work-grid" style="background-image:url(static/img/project-2.jpg);">
+								<div class="inner">
+									<div class="desc">
+										<h3>Punto Fijo</h3>
+										<img src="{{url_for('static', filename='img/pf.JPG')}}"/>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 text-center animate-box">
+						<a class="work" href="euler.html">
+							<div class="work-grid" style="background-image:url(static/img/project-3.jpg);">
+								<div class="inner">
+									<div class="desc">
+										<h3>Euler</h3>
+										<img src="{{url_for('static', filename='img/eu.JPG')}}"/>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 text-center animate-box">
+						<a class="work" href="taylor.html">
+							<div class="work-grid" style="background-image:url(static/img/project-4.jpg);">
+								<div class="inner">
+									<div class="desc">
+										<h3>Taylor</h3>
+										<img src="{{url_for('static', filename='img/ta.JPG')}}"/>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+	<section id="nosotros">
+		<div id="fh5co-author" class="fh5co-bg-section">
+			<div class="container">
+				<div class="row animate-box">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<h2>Un poco sobre nosotros</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<div class="author">
+							<div class="author-inner animate-box" style="background-image: url(static/img/flask.png);">
+							</div>
+							<div class="desc animate-box">
+								<span>Web Designer &amp; Developer</span>
+								<h3>Grupo python</h3>
+								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+								<ul class="fh5co-social-icons">
+									<li><a href="https://www.facebook.com/"><i class="icon-facebook"></i></a></li>
+									<li><a href="https://twitter.com/"><i class="icon-twitter"></i></a></li>
+									<li><a href="https://github.com/RayDiazVega/FlaskAPP"><i class="icon-github"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer id="fh5co-footer" role="contentinfo">
+		<div class="container">
+			<div class="row copyright">
+				<div class="col-md-12 text-center">
+					<p>
+						<small class="block">&copy; 2018 Grupo Python.</small> 
+						<small class="block">Diseñado por <a href="/" target="_blank">GrupoPython</a></small>
+					</p>
+					<ul class="fh5co-social-icons">
+						<li><a href="https://twitter.com/"><i class="icon-twitter"></i></a></li>
+						<li><a href="https://www.facebook.com/"><i class="icon-facebook"></i></a></li>
+						<li><a href="https://co.linkedin.com/"><i class="icon-linkedin"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	</div>
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+	</div>
+	<!-- jQuery -->
+	<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.min.js')}}"></script>
+	<!-- jQuery Easing -->
+	<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.easing.1.3.js')}}"></script>
+	<!-- Bootstrap -->
+	<script type="text/javascript" src="{{ url_for('static', filename='js/bootstrap.min.js')}}"></script>
+	<!-- Waypoints -->
+	<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.waypoints.min.js')}}"></script>
+	<!-- Main -->
+	<script type="text/javascript" src="{{ url_for('static', filename='js/main.js')}}"></script>
+	</body>
+</html>
+
